@@ -30,7 +30,6 @@ The design avoids hidden abstractions and returns raw WAS API JSON exactly as pr
 - Retry logic with exponential backoff  
 - Detailed API errors with full JSON payloads included  
 - Optional proxy support  
-- Works in automation pipelines, cron jobs, CI/CD, and Splunk ingestion workflows  
 - No dependency on Tenable SDKs  
 
 ---
