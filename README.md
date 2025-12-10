@@ -1,13 +1,13 @@
-# *** This tool is not an officially supported by Tenable ***
-
-*** Use of this tool is subject to the terms and conditions identified below,
- and is not subject to any license agreement you may have with Tenable ***
-
 # pytenable-was
 
 A modular Python client for the Tenable Web Application Scanning (WAS) v2 API.  
 This package implements a clean, reliable set of endpoint wrappers for interacting with WAS scans, applications, and findings using AccessKey/SecretKey authentication.  
-The goal is stability, clarity, and accurate reflection of the official WAS v2 API.
+
+
+# *** This tool is not an officially supported by Tenable ***
+
+*** Use of this tool is subject to the terms and conditions identified below,
+ and is not subject to any license agreement you may have with Tenable ***
 
 ---
 
@@ -25,7 +25,7 @@ Tenable Web Application Scanning (WAS) v2 provides programmatic access to scan m
 
 The design avoids hidden abstractions and returns raw WAS API JSON exactly as provided by Tenable.
 
----
+
 
 ## Features
 
@@ -37,14 +37,8 @@ The design avoids hidden abstractions and returns raw WAS API JSON exactly as pr
 - Optional proxy support  
 - No dependency on Tenable SDKs  
 
----
+# Error Handling
 
-## Installation
-
-Install from package source:
-
-
-#Error Handling
 
 Custom exceptions include:
 	•	APIError
@@ -62,17 +56,17 @@ All exceptions include:
 	•	Raw response message
 	•	Parsed JSON (if available)
 
-#Requirements
+# Requirements
+
 	•	Python 3.8+
 	•	requests
 	•	pydantic v2
-#Roadmap
+	
+# Roadmap
 
-Planned enhancements:
 	•	Scan scheduling support
 	•	Plugin metadata mapping
 	•	Advanced findings filtering
 	•	Bulk scan export utilities
 	•	User-level configuration profiles
-	•	CI workflows and test suite
 
