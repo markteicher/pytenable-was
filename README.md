@@ -1,3 +1,8 @@
+# *** This tool is not an officially supported by Tenable ***
+
+*** Use of this tool is subject to the terms and conditions identified below,
+ and is not subject to any license agreement you may have with Tenable ***
+
 # pytenable-was
 
 A modular Python client for the Tenable Web Application Scanning (WAS) v2 API.  
