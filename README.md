@@ -56,13 +56,9 @@ All exceptions include:
 - Request URL
 - Raw response messages
 - Parsed JSON
-- 
+  
 ## Requirements
 
 - Python 3.8 
 - requests
 - pydantic v2
-
-
-
-
