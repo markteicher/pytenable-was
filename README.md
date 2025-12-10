@@ -37,3 +37,37 @@ The design avoids hidden abstractions and returns raw WAS API JSON exactly as pr
 ## Installation
 
 Install from package source:
+
+
+#Error Handling
+
+Custom exceptions include:
+	•	APIError
+	•	ThrottleError
+	•	ConnectionError
+	•	TimeoutError
+	•	ModelValidationError
+	•	ScanWaitError
+	•	NotFoundError
+	•	CacheKeyError
+
+All exceptions include:
+	•	HTTP status code
+	•	Request URL
+	•	Raw response message
+	•	Parsed JSON (if available)
+
+#Requirements
+	•	Python 3.8+
+	•	requests
+	•	pydantic v2
+#Roadmap
+
+Planned enhancements:
+	•	Scan scheduling support
+	•	Plugin metadata mapping
+	•	Advanced findings filtering
+	•	Bulk scan export utilities
+	•	User-level configuration profiles
+	•	CI workflows and test suite
+
