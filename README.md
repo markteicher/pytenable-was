@@ -41,20 +41,20 @@ The design avoids hidden abstractions and returns raw WAS API JSON exactly as pr
 
 
 Custom exceptions include:
-	•	APIError
-	•	ThrottleError
-	•	ConnectionError
-	•	TimeoutError
-	•	ModelValidationError
-	•	ScanWaitError
-	•	NotFoundError
-	•	CacheKeyError
+	APIError
+	ThrottleError
+	ConnectionError
+	TimeoutError
+	ModelValidationError
+	ScanWaitError
+	NotFoundError
+	CacheKeyError
 
 All exceptions include:
-	•	HTTP status code
-	•	Request URL
-	•	Raw response message
-	•	Parsed JSON (if available)
+	HTTP status code
+	Request URL
+	Raw response message
+	Parsed JSON (if available)
 
 # Requirements
 
