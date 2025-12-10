@@ -37,7 +37,7 @@ The design avoids hidden abstractions and returns raw WAS API JSON exactly as pr
 - Optional proxy support  
 - No dependency on Tenable SDKs  
 
-# Error Handling
+##Error Handling
 
 
 Custom exceptions include:
@@ -56,11 +56,11 @@ All exceptions include:
 	Raw response message
 	Parsed JSON (if available)
 
-# Requirements
+## Requirements
 
-	•	Python 3.8+
-	•	requests
-	•	pydantic v2
+Python 3.8
+requests
+pydantic v2
 
 
 
