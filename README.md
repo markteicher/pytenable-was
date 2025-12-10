@@ -39,28 +39,30 @@ The design avoids hidden abstractions and returns raw WAS API JSON exactly as pr
 
 ##Error Handling
 
-
 Custom exceptions include:
-	APIError
-	ThrottleError
-	ConnectionError
-	TimeoutError
-	ModelValidationError
-	ScanWaitError
-	NotFoundError
-	CacheKeyError
+
+- APIError
+- Throttle Error
+- Connection Error
+- Timeout Error
+- Model Validation Error
+- Scan Wait Error
+- Not Found Error
+- Cache Key Error
 
 All exceptions include:
-	HTTP status code
-	Request URL
-	Raw response message
-	Parsed JSON (if available)
 
+- HTTP status codes
+- Request URL
+- Raw response messages
+- Parsed JSON
+- 
 ## Requirements
 
-Python 3.8
-requests
-pydantic v2
+- Python 3.8 
+- requests
+- pydantic v2
+
 
 
 
