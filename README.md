@@ -61,12 +61,6 @@ All exceptions include:
 	•	Python 3.8+
 	•	requests
 	•	pydantic v2
-	
-# Roadmap
 
-	•	Scan scheduling support
-	•	Plugin metadata mapping
-	•	Advanced findings filtering
-	•	Bulk scan export utilities
-	•	User-level configuration profiles
+
 
