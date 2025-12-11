@@ -61,4 +61,3 @@ All exceptions include:
 
 - Python 3.8 
 - requests
-- pydantic v2
