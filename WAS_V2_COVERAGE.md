@@ -1,4 +1,4 @@
-## Architecture Diagram
+## PyTenable-WAS SDK+CLI Application Flowhart
 
 ```mermaid
 flowchart TD
