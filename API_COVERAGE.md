@@ -1,6 +1,6 @@
 # WAS v2 Coverage Matrix
 
-| WAS Domain / Endpoint                                  | Implemented In         | SDK Method(s)                          | CLI Command(s)                                   | Status |
+| WAS Endpoint                                         | Implemented In         | SDK Method(s)                          | CLI Command(s)                                   | Status |
 |---------------------------------------------------------|-------------------------|-----------------------------------------|--------------------------------------------------|--------|
 | **Scans**                                               | `scans.py`              | `list_scans`, `get_scan`                | `scans list`, `scans details`                    | ✔ Full |
 | GET /was/v2/scans                                       |                         |                                         |                                                  |        |
