@@ -1,0 +1,11 @@
+def test_imports():
+    import pytenable_was
+    import pytenable_was.cli
+    import pytenable_was.config
+    import pytenable_was.errors
+    import pytenable_was.http
+    import pytenable_was.scans
+    import pytenable_was.templates
+    import pytenable_was.user_templates
+    import pytenable_was.users
+    import pytenable_was.utils
