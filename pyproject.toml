@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytenable-was"
+version = "1.0.0"
+description = "SDK + CLI for Tenable Web Application Scanning (WAS) v2"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Mark Teicher", email = "your-email@example.com" }
+]
+requires-python = ">=3.8"
+
+dependencies = [
+    "requests>=2.28.0",
+    "click>=8.0",
+    "tqdm>=4.65",
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/markteicher/pytenable-was"
+Documentation = "https://github.com/markteicher/pytenable-was/wiki"
+Source = "https://github.com/markteicher/pytenable-was"
+Issues = "https://github.com/markteicher/pytenable-was/issues"
+
+[project.scripts]
+pytenable-was = "pytenable_was.cli:cli"
