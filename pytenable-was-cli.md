@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     A[Start] --> B[Parse arguments]
     B --> C{Valid args}
