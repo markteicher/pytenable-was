@@ -419,6 +419,17 @@ All exceptions provide:
 
 ---
 
+## References
+
+- Tenable product documentation  
+  https://www.tenable.com
+
+- Tenable API documentation  
+  https://portal.dragos.com/api/v1/doc/index.html
+
+
+
+
 # License
 
 #MIT License
