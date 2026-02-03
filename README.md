@@ -3,6 +3,38 @@
 A modular Python client and command-line interface for the **Tenable Web Application Scanning (WAS) v2 API**.  
 This SDK provides clean, predictable wrappers around WAS scans, applications, findings, plugins, templates, vulnerabilities, notes, folders, and related metadata.
 
+# Tenable Web Application Scanning
+
+Tenable Web App Scanning (WAS) is a web application scanning technology allows for the execution of vulnerability scanning for:
+
+- Web applications
+  
+- Identifying risks like OWASP Top 10 issues
+  
+- Injection flaws
+  
+- Component vulnerabilities with high accuracy
+  
+- Minimal false positives
+
+- External scanning of web applications leveraging HTML5 and AJAX Frameworks.
+
+ - Tenable Web App Scanning uses region-specific cloud scanners
+---
+
+# Tenable Web App Scanning provides:
+
+
+- Overall Score
+
+- Asset Exposure Score (AES)
+
+- Top Contributing Factors
+
+- Remediation recommendations (not always correct or as detailed)
+  
+- Prevention recommendations (not always correct or as detailed)
+
 ---
 
 ## ⚠️ Disclaimer
