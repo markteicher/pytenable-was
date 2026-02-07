@@ -1,3 +1,5 @@
+![pytenable-was CLI overview](docs/images/pytenable-was-overview.jpeg)
+
 # pytenable-was
 
 A modular Python client and command-line interface for the **Tenable Web Application Scanning (WAS) v2 API**.  
