@@ -1,4 +1,4 @@
-![pytenable-was CLI overview](docs/images/pytenable-was-overview.jpeg)
+![pytenable-was CLI overview](docs/images/pytenable-was-overview.jpg)
 
 # pytenable-was
 
