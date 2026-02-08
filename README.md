@@ -1,6 +1,9 @@
 ![Tenable Web App Scanning](docs/images/tenable_was_logo.jpg)
 
 
+![Tenable WAS – Page 1](docs/images/tenable_was_page_1.jpg)
+![Tenable WAS – Page 2](docs/images/tenable_was_page_2.jpg)
+
 ![pytenable-was CLI overview](docs/images/pytenable-was-overview.jpg)
 
 # pytenable-was
