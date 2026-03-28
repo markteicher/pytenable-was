@@ -437,7 +437,7 @@ All exceptions provide:
   https://www.tenable.com
 
 - Tenable API documentation  
-  https://portal.dragos.com/api/v1/doc/index.html
+  https://developer.tenable.com/
 
 
 
